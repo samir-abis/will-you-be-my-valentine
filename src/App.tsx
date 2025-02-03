@@ -72,7 +72,7 @@ export default function Page() {
               onClick={handleNoClick}
               className=" rounded bg-red-500 px-4 py-2 font-bold text-white hover:bg-red-700"
             >
-              {noCount === 0 ? "No" : getNoButtonText()}
+              {noCount === 0 ? "Não" : getNoButtonText()}
             </button>
           </div>
         </>
